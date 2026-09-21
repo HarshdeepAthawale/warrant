@@ -9,65 +9,65 @@
    Green / amber / red are reserved ONLY for compliance status.
    ============================================================ */
 :root {
-  /* warm paper surfaces */
-  --bg: #f6f2ea;
-  --bg-subtle: #efe9dd;
-  --surface: #fdfbf6;
-  --surface-2: #f1ebe0;
-  --border: #e2dbca;
-  --border-strong: #d0c6b2;
+  /* paper surfaces (cyberhound) */
+  --bg: #f5f5f0;
+  --bg-subtle: #eeeee8;
+  --surface: #eaeae5;
+  --surface-2: #e2e2db;
+  --border: #d5d5cd;
+  --border-strong: #c4c4b9;
 
-  /* warm ink text */
-  --ink: #191611;
-  --ink-2: rgba(25, 22, 17, 0.74);
-  --muted: rgba(25, 22, 17, 0.6);
-  --faint: rgba(25, 22, 17, 0.42);
+  /* ink text */
+  --ink: #141413;
+  --ink-2: #3d3d39;
+  --muted: #6e6e67;
+  --faint: #9a9a91;
 
-  /* terracotta accent (never used for status) */
-  --accent: #b43a1e;
-  --accent-2: #9c311a;
-  --accent-contrast: #fdfbf6;
-  --accent-soft: rgba(180, 58, 30, 0.1);
-  --ring: rgba(180, 58, 30, 0.42);
+  /* warm clay accent (never used for status) */
+  --accent: #b75b3a;
+  --accent-2: #9e4d30;
+  --accent-contrast: #fdfdfb;
+  --accent-soft: rgba(183, 91, 58, 0.1);
+  --ring: rgba(183, 91, 58, 0.4);
 
   /* status: green / amber / red */
-  --ok: #1f8f57;
-  --ok-bg: rgba(31, 143, 87, 0.11);
+  --ok: #16a34a;
+  --ok-bg: rgba(22, 163, 74, 0.1);
   --warn: #b9821a;
   --warn-bg: rgba(185, 130, 26, 0.13);
-  --risk: #c02b2b;
-  --risk-bg: rgba(192, 43, 43, 0.1);
+  --risk: #c81e3a;
+  --risk-bg: rgba(200, 30, 58, 0.1);
 
-  --shadow-sm: 0 1px 2px rgba(25, 22, 17, 0.05), 0 1px 3px rgba(25, 22, 17, 0.06);
-  --shadow-md: 0 4px 12px rgba(25, 22, 17, 0.07), 0 2px 6px rgba(25, 22, 17, 0.05);
-  --shadow-lg: 0 24px 60px -20px rgba(25, 22, 17, 0.24), 0 8px 24px -12px rgba(25, 22, 17, 0.14);
+  --shadow-sm: 0 1px 2px rgba(20, 20, 19, 0.05), 0 1px 3px rgba(20, 20, 19, 0.06);
+  --shadow-md: 0 4px 12px rgba(20, 20, 19, 0.07), 0 2px 6px rgba(20, 20, 19, 0.05);
+  --shadow-lg: 0 24px 60px -20px rgba(20, 20, 19, 0.2), 0 8px 24px -12px rgba(20, 20, 19, 0.12);
 }
 
 .dark {
-  --bg: #14120f;
-  --bg-subtle: #100e0b;
-  --surface: #1c1813;
-  --surface-2: #241f19;
-  --border: #2b261f;
-  --border-strong: #3a352c;
+  --bg: #0c0c0a;
+  --bg-subtle: #080807;
+  --surface: #191917;
+  --surface-2: #201f1c;
+  --border: #2a2a26;
+  --border-strong: #3a3a34;
 
-  --ink: #f4efe6;
-  --ink-2: rgba(244, 239, 230, 0.8);
-  --muted: rgba(244, 239, 230, 0.66);
-  --faint: rgba(244, 239, 230, 0.44);
+  --ink: #e8e8e3;
+  --ink-2: rgba(232, 232, 227, 0.8);
+  --muted: rgba(232, 232, 227, 0.56);
+  --faint: rgba(232, 232, 227, 0.38);
 
-  --accent: #e2694a;
-  --accent-2: #ef7d5e;
-  --accent-contrast: #1a1510;
-  --accent-soft: rgba(226, 105, 74, 0.12);
-  --ring: rgba(226, 105, 74, 0.5);
+  --accent: #e28b63;
+  --accent-2: #ec9c78;
+  --accent-contrast: #0c0c0a;
+  --accent-soft: rgba(226, 139, 99, 0.13);
+  --ring: rgba(226, 139, 99, 0.5);
 
-  --ok: #46c07e;
-  --ok-bg: rgba(70, 192, 126, 0.13);
+  --ok: #4ade80;
+  --ok-bg: rgba(74, 222, 128, 0.13);
   --warn: #e0a93b;
   --warn-bg: rgba(224, 169, 59, 0.13);
-  --risk: #ef5a5a;
-  --risk-bg: rgba(239, 90, 90, 0.13);
+  --risk: #f65a6f;
+  --risk-bg: rgba(246, 90, 111, 0.13);
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
   --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.55);
@@ -95,9 +95,9 @@
   --color-warn: var(--warn);
   --color-risk: var(--risk);
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-mono-jb), ui-monospace, "SF Mono", Menlo, monospace;
-  --font-display: var(--font-fraunces), ui-serif, Georgia, "Times New Roman", serif;
+  --font-display: var(--font-newsreader), ui-serif, Georgia, "Times New Roman", serif;
 
   --radius-card: 14px;
 }
@@ -159,9 +159,10 @@ body {
   }
 
   .eyebrow {
+    font-family: var(--font-mono);
     font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.14em;
+    font-weight: 500;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--accent);
   }
