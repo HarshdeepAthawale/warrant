@@ -23,12 +23,12 @@
   --muted: #6e6e67;
   --faint: #9a9a91;
 
-  /* warm clay accent (never used for status) */
-  --accent: #b75b3a;
-  --accent-2: #9e4d30;
+  /* aubergine accent (never used for status) */
+  --accent: #6e5266;
+  --accent-2: #594153;
   --accent-contrast: #fdfdfb;
-  --accent-soft: rgba(183, 91, 58, 0.1);
-  --ring: rgba(183, 91, 58, 0.4);
+  --accent-soft: rgba(110, 82, 102, 0.1);
+  --ring: rgba(110, 82, 102, 0.4);
 
   /* status: green / amber / red */
   --ok: #16a34a;
@@ -56,11 +56,11 @@
   --muted: rgba(232, 232, 227, 0.56);
   --faint: rgba(232, 232, 227, 0.38);
 
-  --accent: #e28b63;
-  --accent-2: #ec9c78;
+  --accent: #a98ca0;
+  --accent-2: #bb9fb2;
   --accent-contrast: #0c0c0a;
-  --accent-soft: rgba(226, 139, 99, 0.13);
-  --ring: rgba(226, 139, 99, 0.5);
+  --accent-soft: rgba(169, 140, 160, 0.13);
+  --ring: rgba(169, 140, 160, 0.5);
 
   --ok: #4ade80;
   --ok-bg: rgba(74, 222, 128, 0.13);
@@ -211,7 +211,6 @@ body {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-card);
-    box-shadow: var(--shadow-sm);
   }
 
   .section-line {
@@ -314,9 +313,8 @@ body {
     border-color 0.25s ease, box-shadow 0.28s ease, background-color 0.25s ease;
 }
 .card-hover:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   border-color: var(--border-strong);
-  box-shadow: var(--shadow-md);
 }
 
 .lift {

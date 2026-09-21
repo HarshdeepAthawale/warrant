@@ -37,7 +37,7 @@ export function FinalCta() {
   return (
     <section id="request-a-pilot" className="section-line py-20 sm:py-24">
       <Container>
-        <div className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-border bg-surface shadow-[var(--shadow-lg)]">
+        <div className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-border bg-surface">
           <div className="grid grid-cols-1 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
             <div className="border-b border-border bg-surface-2 p-8 md:border-b-0 md:border-r">
               <span className="eyebrow">{finalCta.eyebrow}</span>
